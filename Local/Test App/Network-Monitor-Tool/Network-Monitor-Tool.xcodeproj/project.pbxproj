@@ -28,7 +28,6 @@
 		50C427F427582EAE00081281 /* LocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C427F327582EAE00081281 /* LocalView.swift */; };
 		50C427F627582F5700081281 /* LocalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C427F527582F5700081281 /* LocalViewModel.swift */; };
 		50C692F32768080B0008F01B /* AddLocalConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C692F22768080B0008F01B /* AddLocalConnectionView.swift */; };
-		50CE707927A2267700657BB3 /* NetKitLocal in Frameworks */ = {isa = PBXBuildFile; productRef = 50CE707827A2267700657BB3 /* NetKitLocal */; };
 		50FB5FD1277B99C000D36D9B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB5FD0277B99C000D36D9B /* Router.swift */; };
 		50FB5FD3277B9A6800D36D9B /* ViewFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB5FD2277B9A6800D36D9B /* ViewFlowController.swift */; };
 		50FB5FD5277B9A9900D36D9B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB5FD4277B9A9900D36D9B /* Enums.swift */; };
@@ -67,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CE707927A2267700657BB3 /* NetKitLocal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +217,6 @@
 			);
 			name = "Network-Monitor-Tool";
 			packageProductDependencies = (
-				50CE707827A2267700657BB3 /* NetKitLocal */,
 			);
 			productName = "Network-Monitor-Tool";
 			productReference = 50C427CA2757CDD700081281 /* Network-Monitor-Tool.app */;
@@ -250,7 +247,6 @@
 			);
 			mainGroup = 50C427C12757CDD700081281;
 			packageReferences = (
-				50CE707727A2267700657BB3 /* XCRemoteSwiftPackageReference "NetKitLocal" */,
 			);
 			productRefGroup = 50C427CB2757CDD700081281 /* Products */;
 			projectDirPath = "";
@@ -524,25 +520,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		50CE707727A2267700657BB3 /* XCRemoteSwiftPackageReference "NetKitLocal" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/calebabm/NetKitLocal";
-			requirement = {
-				branch = "feature/send-receive";
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		50CE707827A2267700657BB3 /* NetKitLocal */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 50CE707727A2267700657BB3 /* XCRemoteSwiftPackageReference "NetKitLocal" */;
-			productName = NetKitLocal;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50C427C22757CDD700081281 /* Project object */;
 }
